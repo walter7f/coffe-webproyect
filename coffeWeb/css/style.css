@@ -74,7 +74,7 @@
     letter-spacing: .2rem;
   }
   .header{
-    background: url(../imges/ff.avif) no-repeat;
+    background: url(../imges/ff.avif);
     display: flex;
     flex-direction: row;
     align-items: center;
