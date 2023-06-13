@@ -13,7 +13,6 @@
     box-sizing: border-box;
     outline: none; border: none;
     text-decoration:  none;
-    text-transform: capitalize;
     transition: .2s linear;
 
   }
@@ -43,7 +42,7 @@
     padding-right: 7%;
     position:static;
     width: auto;
-    height: 100vh;
+    height: auto;
 
   }
 
@@ -84,6 +83,7 @@
     position: fixed;
     top: 0; left: 0; right: 0;
     z-index: 1000;
+    color:#765326;
   }
   .header .logo img{
     height: 10rem;
@@ -139,7 +139,7 @@
   }
   .header .cart-item-container .cart-item .content h3{
     font-size: 2rem;
-    color: var(--black);
+    color: white;
     padding-bottom: .5rem;
   }
   .header .cart-item-container .cart-item .content .price{
@@ -219,11 +219,13 @@
     padding: 5rem;
     text-align: center;
     border: var(--border);
+    border-color: #765326;
     border-radius: 15px;
+    border-width: 10px;
   }
 
   .menu2 .box-container .box img{
-    height: 10rem;
+    height: 13rem;
     
   }
 
@@ -236,7 +238,7 @@
   .menu2 .box-container .box .price{
     color:white;
     font-size: 2.5rem;
-    padding: 5rem 0;
+    padding: 1rem 0;
   }
   .menu2 .box-container .box .price span{
 
@@ -245,7 +247,7 @@
   }
 
   .menu2 .box-container .box:hover{
-    background-color: #765326;
+    background-color: #f4ac4e;
   }
 
   .menu2 .box-container .box:hover>*{
@@ -284,6 +286,11 @@
     font-size: 3rem;
     color: white;
   }
+  .contactos .row form h4{
+
+    font-size: 3rem;
+    color: darkgoldenrod;
+  }
 
   .contactos .row form .inputBox{
     display: flex;
@@ -314,3 +321,6 @@
     background: rgba(249, 176, 18, 0.2);
     border-radius: 20px;
   }
+.form_c .wh img{
+  height: 15rem;
+}

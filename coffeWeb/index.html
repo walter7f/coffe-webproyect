@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,135 +10,200 @@
     <link rel="stylesheet" href="css/style.css">
 
 </head>
+
 <body>
 
     <header class="header">
 
-    
-   <a href="#" class="logo">
-    <img src="imges/log.png" alt="">
-   </a> 
-   <nav class="navbar"> 
-    <a href="#home">Home</a>
-    <a href="#menu">menu</a>
-    <a href="#menu2">Promociones</a>
-    <a href="#productos" id="cart-btn">Productos</a>  
-    <a href="#contactos">Contactos</a>
-   </nav>
+        <h1>Coffe's</h1>
+        <a href="#" class="logo">
+            <img src="imges/log.png" alt="">
+        </a>
+        <nav class="navbar">
+            <a href="#home">Inicio</a>
+            <a href="#menu">Nosotros</a>
+            <a href="#menu2">Menu</a>
+            <a href="#productos" id="cart-btn">Promociones</a>
+            <a href="#contactos">Contactos</a>
+        </nav>
 
-   <div class="cart-item-container">
-    <div class="cart-item">
-        <span class="fas-fa-times"></span>
-        <img src="imges/item1.jpg" alt="">
+        <div class="cart-item-container">
+
+            <div class="cart-item">
+                <span class="fas fa-times"></span>
+                <img src="imges/c1.jpg" alt="">
+                <div class="content">
+                    <h3>Cafe Moca mas</h3>
+                    <h3>Panqueque delux</h3>
+                    <div class="price">Q.50.00</div>
+                </div>
+            </div>
+            <div class="cart-item">
+                <span class="fas fa-times"></span>
+                <img src="imges/c2.jpg" alt="">
+                <div class="content">
+                    <h3>Cafe Expreso mas</h3>
+                    <h3>Pastel de Chocolate</h3>
+                    <div class="price">Q 20.50</div>
+                </div>
+            </div>
+            <div class="cart-item">
+                <span class="fas fa-times"></span>
+                <img src="imges/b7.jpg" alt="">
+                <div class="content">
+                    <h3>Mega Creapas</h3>
+                    <div class="price">Q 15.50</div>
+                </div>
+            </div>
+            <div class="cart-item">
+                <span class="fas fa-times"></span>
+                <img src="imges/b8.jpg" alt="">
+                <div class="content">
+                    <h3>Mega Shuco</h3>
+                    <h3>doble</h3>
+                    <div class="price">Q 20.50</div>
+                </div>
+            </div>
+            <div class="cart-item">
+                <span class="fas fa-times"></span>
+                <img src="imges/b9.jpg" alt="">
+                <div class="content">
+                    <h3>Hamburgesa con</h3>
+                    <h3>Papas fritas 2*1</h3>
+                    <div class="price">Q 45.50</div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="home" id="home">
         <div class="content">
-            <h3>Cafe Moca</h3>
-            <div class="price">Q 20.50</div>
+            <h3>Inicia tu dia con un buen cafe </h3>
+            <p>
+                Nuestro café es cuidadosamente seleccionado para ofrecerte el mejor sabor y aroma.
+                Además, nuestro ambiente es acogedor y relajante,
+                ideal para tomar una pausa en medio del caos diario.
+                ¡Ven conocenos no te arepentiras!
+            </p>
+            <a href="#menu" class="btn">Conocenos</a>
         </div>
-    </div>
-    <div class="cart-item">
-        <span class="fas-fa-times"></span>
-        <img src="imges/item2.avif" alt="">
-        <div class="content">
-            <h3>Cafe Expreso</h3>
-            <div class="price">Q 20.50</div>
+    </section>
+
+    <section class="menu" id="menu">
+        <h1 class="heading"><span>Quienes</span> Somos</h1>
+
+        <div class="row">
+            <div class="image">
+                <img src="imges/item1.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>Coffe's</h3>
+                <p>
+                    ¡Bienvenidos a nuestra cafetería! Somos una empresa apasionada por ofrecer la mejor calidad de café
+                    y el mejor servicio a nuestros clientes. Trabajamos con granos de café de la mejor calidad,
+                    cuidadosamente seleccionados para ofrecer el mejor sabor y aroma. Además,
+                    nuestro personal amable y servicial está siempre dispuesto a ayudarte a encontrar la opción de café
+                    perfecto para ti. Nuestro objetivo es ofrecerte una experiencia única de café que te haga querer
+                    volver una y otra vez. ¡Ven a visitarnos y vive la experiencia de nuestro café!
+                </p>
+                <a href="#menu2" class="btn">Conoce nuestras Delicias</a>
+            </div>
         </div>
-    </div>
-    <div class="cart-item">
-        <span class="fas fa-times"></span>
-        <img src="imges/item3.jpg" alt="">
-        <div class="content">
-            <h3>Cafe Moca</h3>
-            <div class="price">Q 20.50</div>
-        </div>
-    </div>
-    <a href="#" class="btn" >Checar ahora</a>
-   </div>
-</header>
+    </section>
 
-<section class="home" id="home">
-    <div class="content">
-        <h3>Inicia tu dia con un buen cafe </h3>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla omnis voluptatum incidunt ex eaque, veritatis odit sed rem atque ullam iure dicta fuga voluptate
-            s! Laboriosam obcaecati blanditiis rerum eos quae?</p>  
-        <a href="#" class="btn">Vamos ahora</a>
-    </div>
-</section>
-
-<section class="menu" id="menu">
-<h1 class="heading"><span>about</span> us</h1>
-
-<div class="row">
-    <div class="image">
-        <img src="imges/item1.jpg" alt="">
-    </div>
-    <div class="content">
-        <h3>Cual es tu cafe especial</h3>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-             Nihil voluptatum ipsam amet tempora inventore suscipit 
-             illum similique dolorum iure, ullam tempore porro minus 
-             soluta eligendi! Quidem corporis magnam placeat veniam.</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio atque consequuntur, vero eligendi aliquid
-            quis nihil culpa deleniti accusantium eius corrupti mollitia ex voluptates quidem autem, cum recusandae. Nam, cupiditate!</p>
-        <a href="#" class="btn"> learn more</a> 
-    </div>
-</div>
-</section>
-
-<section class="menu2" id="menu2">
-    <h1 class="heading"> our <span>menu</span></h1>
-    <div class="box-container">
-        <div class="box">
-            <img src="imges/item3.jpg" alt="">
-            <h3>tasty healty</h3>
-            <div class="price">Q 20.00</div>
-            <a href="#" class="btn">add to cart</a>
-        </div>
-
-        <div class="box">
-            <img src="imges/item1.jpg" alt="">
-            <h3>tasty healty</h3>
-            <div class="price">Q 20.00</div>
-            <a href="#" class="btn">add to cart</a>
-        </div>
-
-        <div class="box">
-            <img src="imges/item2.avif" alt="">
-            <h3>tasty healty</h3>
-            <div class="price">Q 20.00</div>
-            <a href="#" class="btn">add to cart</a>
-        </div>
-<!-- agregar todo lo posible-->
-    </div>
-</section>
-
-
-<section class="contactos" id="contactos">
-    <h1 class="heading"> <span>contacto</span> us</h1>
-    <div class="row">
-        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1198.7088299980321!2d-90.69329665164523!3d14.637886957148217!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85890cbf1ff429d9%3A0xc1586b2b1e004d8!2zU2FudGEgTWFyw61hIENhdXF1w6k!5e0!3m2!1ses-419!2sgt!4v1685597787239!5m2!1ses-419!2sgt" width="600" 
-         allowfullscreen="" loading="lazy"></iframe>
-         <div class="form_c">
-
-             <form action="">
-                 <h3>Queremos saber de ti</h3>
-                 <div class="inputBox">
-                     <input type="text" placeholder="nombre" size="20">
-                    </div>
-                    <div class="inputBox">
-                        <input type="email" placeholder="email">
-                    </div>
-                    <div class="inputBox">
-                        <input type="number" placeholder="numero">
-                    </div>
-                    <input type="submit" value="contacta ahora" class="btn">
-                </form>
+    <section class="menu2" id="menu2">
+        <h1 class="heading">Nuestro<span> Menu</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <img src="imges/item3.jpg" alt="">
+                <h3>Cafe Expreso Doble</h3>
+                <div class="price">Q 10.00</div>>
             </div>
 
+            <div class="box">
+                <img src="imges/pp1.jfif" alt="">
+                <h3>Cafe Expreso</h3>
+                <div class="price">Q 15.00</div>
+            </div>
+
+            <div class="box">
+                <img src="imges/pp.2.jpg" alt="">
+                <h3>Cafe Late</h3>
+                <div class="price">Q 20.00</div>
+            </div>
+            <!-- agregar todo lo posible-->
+            <div class="box">
+                <img src="imges/pp3.jfif" alt="">
+                <h3>Capuchino</h3>
+                <div class="price">Q 20.00</div>
+            </div>
+            <div class="box">
+                <img src="imges/pp.4.jpg" alt="">
+                <h3>Cafe Cacao</h3>
+                <div class="price">Q 25.00</div>
+            </div>
+            <div class="box">
+                <img src="imges/pp5.jpeg" alt="">
+                <h3>Cafe Cacao Simple</h3>
+                <div class="price">Q 20.00</div>
+            </div>
+            <div class="box">
+                <img src="imges/b1.jfif" alt="">
+                <h3> Pastel de Mora</h3>
+                <div class="price">Q 20.00</div>
+            </div>
+            <div class="box">
+                <img src="imges/b2.jfif" alt="">
+                <h3>Pan de Chocolate</h3>
+                <div class="price">Q 15.00</div>
+            </div>
+            <div class="box">
+                <img src="imges/b7.jpg" alt="">
+                <h3>Mega Crepas</h3>
+                <div class="price">Q 30.00</div>
+            </div>
+            <div class="box">
+                <img src="imges/b4.jpg" alt="">
+                <h3>Toreja</h3>
+                <div class="price">Q 10.00</div>
+            </div>
+            <div class="box">
+                <img src="imges/b5.jpg" alt="">
+                <h3>Panqueque</h3>
+                <div class="price">Q 25.00</div>
+            </div>
+            <div class="box">
+                <img src="imges/b6.jpg" alt="">
+                <h3>Crepa Simple</h3>
+                <div class="price">Q 30.00</div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <section class="contactos" id="contactos">
+        <h1 class="heading"> <span>contacto</span> us</h1>
+        <div class="row">
+            <iframe class="map"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1198.7088299980321!2d-90.69329665164523!3d14.637886957148217!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85890cbf1ff429d9%3A0xc1586b2b1e004d8!2zU2FudGEgTWFyw61hIENhdXF1w6k!5e0!3m2!1ses-419!2sgt!4v1685597787239!5m2!1ses-419!2sgt"
+                width="600" allowfullscreen="" loading="lazy"></iframe>
+            <div class="form_c">
+
+                <form action="">
+                    <h3>!Recerva hoy¡</h3>
+                    <h4>Contactanos y recibe una orferta especial</h4>
+                    <a class="wh" href="https://wa.me/34236266">
+                        <img src="./imges/w.png" alt=""/>
+                      </a>
+            </div>
+
+        </div>
+    </section>
+
+
     </div>
-</section>
-
-
-</div>
-<script src="scripts/scripts.js"></script>
+    <script src="scripts/scripts.js"></script>
 </body>
+
 </html>
